@@ -1,5 +1,5 @@
 <head>
-    <title>Catshark Consulting | {{ page.subtitle }}</title>
+    <title>{{ site.title }} | {{ page.subtitle }}</title>
     <!-- best practice -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,14 +14,14 @@
     <link rel="icon" type="image/png" href="/assets/images/logo-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/assets/images/logo-96x96.png" sizes="96x96">
     <!-- opengraph -->
-    <meta property="og:title" content="Catshark Consulting: Digital consulting for Seattle-area nonprofits" />
-    <meta property="og:description" content="Catshark Consulting provides digital services to Seattle-area nonprofits and community organizations. We support your mission by improving access to technology and the advantages it provides." />
+    <meta property="og:title" content="{{ site.title }} | {{ page.subtitle }}" />
+    <meta property="og:description" content="{{ site.long_desc }}" />
     <meta property="og:image" content="{{ '/assets/images/social.png' | absolute_url }}" />
     <meta property="og:url" content="{{ page.url | absolute_url }}" />
     <meta property="og:type" content="website" />
     <!-- twitter -->
-    <meta name="twitter:title" content="Catshark Consulting" />
-    <meta name="twitter:description" content="Digital consulting for Seattle-area nonprofits" />
+    <meta name="twitter:title" content="{{ site.title }}" />
+    <meta name="twitter:description" content="{{ site.short_desc }}" />
     <meta name="twitter:image" content="{{ '/assets/images/social.png' | absolute_url }}" />
     <meta name="twitter:card" content="summary_large_image" />
 </head>
