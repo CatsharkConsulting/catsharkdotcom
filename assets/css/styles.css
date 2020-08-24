@@ -1,0 +1,79 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #f8f8ff;
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.logo img {
+    display: block;
+    object-fit: contain;
+    width: 35%;
+    margin: 5rem auto 2.5rem;
+}
+
+.logo h1, .logo h3 {
+    text-align: center;
+}
+
+.mission-statement, .contact, .origin-story {
+    margin-top: 4rem;
+}
+
+.mission-statement {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.contact {
+    text-align: center;
+}
+
+.origin-story p::before,
+.origin-story p::after {
+    font-size: 4rem;
+    line-height: 1.6rem;
+    position: relative;
+    top: 1rem;
+}
+
+.origin-story p.first::before {
+    content: '\201C';
+}
+
+.origin-story p.last::after {
+    content: '\201D';
+}
+
+.signature {
+    font-style: italic;
+    text-align: right;
+}
+
+.signature img.linkedin {
+    object-fit: contain;
+    width: 2.5rem;
+    vertical-align: middle;
+    outline: none;
+}
+
+.footer {
+    margin: 4rem 0 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
