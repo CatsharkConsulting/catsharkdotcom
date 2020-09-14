@@ -36,6 +36,7 @@ nav a {
     display: inline-block;
     margin-right: 3rem;
     font-size: 2rem;
+    color: inherit;
 }
 
 .logo img {
@@ -88,6 +89,11 @@ nav a {
     width: 2.5rem;
     vertical-align: middle;
     outline: none;
+}
+
+.services-heading {
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .footer {
