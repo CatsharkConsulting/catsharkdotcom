@@ -20,6 +20,24 @@ a:visited {
     color: inherit;
 }
 
+nav {
+    height: 5rem;
+    padding: 2rem;
+    line-height: 5rem;
+    border-bottom: 0.1rem solid #ccc;
+}
+
+nav img {
+    height: 5rem;
+    vertical-align: middle;
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 3rem;
+    font-size: 2rem;
+}
+
 .logo img {
     display: block;
     object-fit: contain;
