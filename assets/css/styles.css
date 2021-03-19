@@ -63,6 +63,10 @@ nav a {
     text-align: center;
 }
 
+a.schedule {
+    cursor: pointer;
+}
+
 .origin-story p::before,
 .origin-story p::after {
     font-size: 4rem;
